@@ -1,0 +1,22 @@
+@media (max-width: $screen-sm-min) {
+  .features {
+    .features__feature {
+      margin-top: 75px;
+    }
+  }
+}
+
+@media (max-width: $screen-md-max) {
+  .trynow {
+    .trynow__tooltip-box {
+      margin-top: 70px;
+    }
+
+    .trynow__input-col {
+      margin-bottom: 30px;
+    }
+  }
+}
+@media (max-width: $screen-xs-min) {
+
+}

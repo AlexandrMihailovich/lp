@@ -1,0 +1,113 @@
+$color_footer_small_text:                 rgba(40, 40, 40, 0.561);
+$color_features_bg:                       #f6f5f3;
+$color_description_figure_bg:             #fff;
+$color_trynow_bg:                         #323969;
+$color_trynow_tooltip_text:               rgb(246, 245, 243);
+$color_trynow_title:                      #fff;
+$color_trynow_singing:                    rgba(246, 245, 243, 0.6);
+$color_footer_figure:                     #fff;
+$color_footer_email_bg:                   rgba(141, 141, 141, 0.2);
+$color_footer_email_border:               #b8b8bf;
+$color_footer_email_text:                 rgba(0, 0, 0, 0.4);
+$color_footer_email_placeholder:          #949494;
+$color_pre_title_text:                    rgb(255, 109, 109);
+$color_content_text:                      rgba(40, 40, 40, 0.659);
+$colo_clients_name:                       rgb(255, 255, 255);
+$color_design_figure:                     #ececec;
+$color_clients_bg:                        #f6f5f3;
+$color_clients_content_text:              rgba(255, 255, 255, 0.659);
+$color_figure:                            #fb8686;
+$color_header_play:                       #8185a3;
+
+
+
+.footer__start-text {
+  color: $color_footer_small_text;
+}
+
+.features {
+  background-color: $color_features_bg;
+}
+
+.description__figure {
+  background-color: $color_description_figure_bg;
+}
+
+.trynow {
+  background-color: $color_trynow_bg;
+}
+
+.trynow__tooltip-text {
+  color: $color_trynow_tooltip_text;
+}
+
+.trynow__title {
+  color: $color_trynow_title;
+}
+
+.trynow__singing {
+  color: $color_trynow_singing;
+  a {
+    color: $color_trynow_singing;
+  }
+}
+
+.footer__figure {
+  background-color: $color_footer_figure;
+}
+
+.footer__email {
+  background-color: $color_footer_email_bg;
+  border-color: $color_footer_email_border;
+  color: $color_footer_email_text;
+  @include placeholder($color_footer_email_placeholder);
+}
+
+.pre-title {
+  color: $color_pre_title_text;
+}
+
+div.content {
+  color: $color_content_text;
+}
+
+.clients__name {
+  color: $colo_clients_name;
+}
+
+.design__figure {
+  background-color: $color_design_figure;
+}
+
+.clients {
+  background-color: $color_clients_bg;
+
+  div.content {
+    color: $color_clients_content_text;
+  }
+}
+
+.design__figure {
+  border-bottom-color: $color_figure;
+}
+
+.description__figure {
+  border-bottom-color: $color_figure;
+}
+
+.footer__figure {
+  border-top-color: $color_figure;
+}
+
+.footer__social {
+  color: $color_footer_small_text;
+}
+
+.header__play {
+  color: $color_header_play;
+}
+
+.header__description {
+
+  color: $color_content_text;
+}

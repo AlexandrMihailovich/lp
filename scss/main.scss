@@ -1,0 +1,319 @@
+@import "bs_build";
+
+
+@import "awe_build";
+
+/**********************************************
+main
+ */
+
+
+/**
+
+response
+ */
+@import "respon";
+
+
+//@import "debug_col_border";
+
+/**
+
+owl
+ */
+@import "owl_cfg";
+
+
+/**
+
+fonts
+ */
+@import "add_fonts";
+
+
+/**
+
+colors
+ */
+@import "colors";
+
+
+/**
+
+Typography
+ */
+@import "bs_castom_type";
+
+
+
+/**
+
+position
+ */
+
+.header {
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url("../assets/images/header-bg.png") no-repeat;
+  background-size: cover;
+  .header__title {
+    margin-bottom: 20px;
+  }
+  .header__content {
+  }
+
+  .header__button {
+    width: 190px;
+  }
+
+  .header__play-box {
+    margin-bottom: 25px;
+  }
+
+  .header__description {
+    margin-top: 15px;
+  }
+}
+
+
+.figure-container {
+  position: relative;
+
+  .figure-container__box {
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .figure-container__figure {
+    position: absolute;
+    height: 100%;
+    width: 0;
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+
+
+.design {
+
+  .design__column {
+    padding-top: 180px;
+    padding-bottom: 165px;
+  }
+
+  .design__figure {
+    left: 150px;
+    bottom: 0;
+    border-left: 1000px solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom-width: 850px;
+    border-bottom-style: solid;
+  }
+
+  .design__figure-box {
+    right: 0;
+    width: 50%;
+    bottom: 0;
+  }
+
+  .design__header {
+    margin-bottom: 40px;
+    h2 {
+      margin-top: 0;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+
+.clients {
+  background: url("../assets/images/clients-bg.png") no-repeat;
+  background-size: cover;
+
+  .clients__row-tes {
+    margin-top: 105px;
+  }
+
+  .clients__row-brand {
+    margin-top: 80px;
+    margin-bottom: 75px;
+  }
+
+  .clients__photo {
+    //box-shadow: #000 2px 2px 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(29, 30, 36);
+    border-radius: 2px;
+  }
+}
+
+
+.features {
+  position: relative;
+  overflow: hidden;
+
+  .features__row {
+    margin-top: 135px;
+    margin-bottom: 180px;
+  }
+
+  .features__header {
+    margin-bottom: 80px;
+    p,h2 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .features_decoration {
+    position: absolute;
+  }
+
+  .features__pen-holder {
+    top: 0;
+    left: 0;
+  }
+
+  .features__phones-shadow {
+    top: -20px;
+    right: 60px;
+  }
+
+  .features__coffee-cup {
+    bottom: -40px;
+    right: 40px;
+  }
+}
+
+
+
+.description {
+  .description__row {
+    margin-top: 135px;
+    margin-bottom: 135px;
+  }
+
+  .description__figure-box {
+    left: 0;
+    width: 50%;
+    bottom: 0;
+  }
+
+  .description__figure {
+    right: 112px;
+    bottom: 0;
+    border-left: 0 solid transparent;
+    border-right: 1000px solid transparent;
+    border-bottom-width: 1050px;
+    border-bottom-style: solid;
+  }
+
+  .description_img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 5;
+    transform: translateY(-50%);
+  }
+
+  .description__header {
+    margin-bottom: 30px;
+  }
+}
+
+
+.browser {
+  .browser__row {
+    margin-top: 100px;
+  }
+
+  .browser__img-block {
+    margin-top: 100px;
+  }
+}
+
+
+
+.trynow {
+
+  .trynow__row {
+    margin-top: 90px;
+    margin-bottom: 85px;
+  }
+
+  .trynow__tooltip-box {
+    position: relative;
+  }
+
+  .trynow__tooltip {
+    position: absolute;
+    top: -60px;
+  }
+
+  .trynow_form {
+    margin-top: 85px;
+  }
+
+  .trynow__tooltip-arrow {
+    position: absolute;
+    left: 0;
+    top: 5px;
+  }
+
+  .trynow__tooltip-text {
+    margin-left: 35px;
+  }
+
+  .trynow__singing {
+    margin-top: 35px;
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+.footer {
+  .footer__row {
+    margin-top: 85px;
+    margin-bottom: 95px;
+  }
+
+  .footer__figure-box {
+    right: 0;
+    width: 24%;
+    bottom: 0;
+  }
+
+  .footer__figure {
+    left: 0;
+    top: 0;
+    border-left: 1000px solid transparent;
+    border-top-width: 1000px;
+    border-top-style: solid;
+  }
+
+  .footer__social {
+    text-align: center;
+    opacity: 0.5;
+  }
+
+  .footer__email-button {
+    width: 51px;
+    box-shadow: #000 0px 1px 2px;
+  }
+}
+
+
+
+.pre-title {
+  letter-spacing: 3px;
+}

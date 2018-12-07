@@ -1,0 +1,9 @@
+.brand-carousel .owl-item img.item {
+  @include center-block();
+  width: 110px;
+}
+
+.client-carousel .owl-item img.clients__photo {
+  @include center-block();
+  width: 75px;
+}
